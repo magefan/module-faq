@@ -1,0 +1,2 @@
+# module-faq
+Training course
