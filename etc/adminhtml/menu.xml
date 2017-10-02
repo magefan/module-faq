@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2017 Magefan (support@magefan.com). All rights reserved.
+ * See LICENSE.txt for license details (http://opensource.org/licenses/osl-3.0.php).
+ *
+ * Glory to Ukraine! Glory to the heroes!
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Magefan_Faq::elements" title="FAQ" module="Magefan_Faq" parent="Magento_Backend::content" sortOrder="10"  resource="Magefan_Faq::elements"/>
+        <add id="Magefan_Faq::faq" title="FAQ" module="Magefan_Faq" parent="Magefan_Faq::elements" sortOrder="10" action="faq/faq" resource="Magefan_Faq::faq"/>
+    </menu>
+</config>
